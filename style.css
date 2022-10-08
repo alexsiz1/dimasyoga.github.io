@@ -1,0 +1,69 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container {
+   max-width: 300px;
+   min-height: 80px;
+   background: white;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   margin: 20% auto;
+   display: flex;
+   box-shadow: 2px 4px 6px rgba(0, 0, 0, .4);
+}
+
+.fot a img{
+   min-width: 50px;
+   height: 50px;
+   border: 1px solid black;
+   border-radius: 90px;
+   margin: auto 30px;
+}
+
+
+body {
+  background: orange;
+}
+.overly {
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, .0);
+   transition: 1s;
+   
+}
+.overly:target{
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, .8);
+}
+.overly-1 {
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, .0);
+   transition: 1s;
+   
+}
+.overly-1:target{
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, .8);
+}
+.overly-2 {
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, .0);
+   transition: 1s;
+   
+}
+.overly-2:target{
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, .8);
+}
