@@ -1,0 +1,110 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+body{
+   background: orange;
+}
+
+
+
+.container {
+   max-width: 300px;
+   border: 1px solid black;
+   min-height: 85px;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   margin: 20% auto;
+   display: flex;
+   box-shadow: 4px 2px 5px rgba(0, 0, 0, .4);
+   background-color: white;
+   
+}
+.fot a img{
+   width: 50px;
+   min-height: 50px;
+   border: 1px solid black; 
+   border-radius: 50px;
+   margin: auto 20px;
+}
+.overly {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, .0);
+  z-index: 999;
+  transition: 1s
+}
+
+.overly:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .8);
+}
+.overly.overly:target img{
+  max-width: 200px;
+  height: 250px;
+  margin-top: 40%;
+  
+}
+.overly2 {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, .0);
+  z-index: 999;
+  transition: 1s
+}
+
+.overly2:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .8);
+}
+.overly2:target img{
+  max-width: 200px;
+  height: 250px;
+  margin-top: 40%;
+  
+}
+.overly3 {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(0, 0, 0, .0);
+  z-index: 999;
+  transition: 1s
+}
+
+.overly3:target{
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .8);
+}
+.overly3:target img{
+  max-width: 200px;
+  height: 250px;
+  margin-top: 40%;
+  
+}
