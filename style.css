@@ -3,6 +3,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+body{
+   background-color: orange;
+}
 
 .iklan {
    width: 100%;
@@ -49,10 +52,11 @@
     margin: 5px;
     margin-bottom: 13px;
 }
- .badan a{
-font-size: 10px;
-text-align: center;
+.badan a{
+   text-align: center;
+   font-size: 10px;
 }
+ 
 .list-produk
 {
     border: 1px solid gainsboro;
@@ -60,6 +64,7 @@ text-align: center;
     float: left;
     width: 100px;
     margin: 5px;
+    background-color: white;
 }
  
 .list-produk:hover
@@ -81,6 +86,7 @@ text-align: center;
     color: crimson;
     text-align: center;
     margin-bottom: 5px;
+    font-size: 20px;
 }
  
 .tombol
@@ -116,12 +122,7 @@ text-align: center;
    display: flex;
    width: auto;
    height: auto;
+   text-align: center;
    margin: 30px auto;
    font-size: 10px;
-   text-align: center;
 }
-.halaman a{
-   font-size: 10px;
-   text-align: center;
-}
-
