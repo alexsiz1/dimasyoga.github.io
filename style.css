@@ -38,6 +38,8 @@
     margin: 35px auto;
     padding: 20px;
     overflow: hidden;
+    font-size: 10px;
+    text-align: center;
 }
  
 .badan h2
@@ -114,8 +116,9 @@ text-align: center;
    display: flex;
    width: auto;
    height: auto;
-   text-align: center;
    margin: 30px auto;
+   font-size: 10px;
+   text-align: center;
 }
 .halaman a{
    font-size: 10px;
